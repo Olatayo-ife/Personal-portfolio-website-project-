@@ -3,9 +3,13 @@ const app = express();
 app.use(express.static('public'));
 
 app.set("view engine", "ejs");
+
+app.get('/contact', (req,res) =>{
+        res.render('contact', { title: 'Contact Us', intro: 'Have a project in mind or just want to say hello? Feel free to reach out! always open to new opportunities and collaborations.', contactMe:+2347066058238});
+});
 app.get('/', (req, res) => {
-    // We can pass data here if needed.
-    // E.g., to conditionally show a message on the contact form (as set up in the EJS)
+    // Data to be passed to the EJS template
+    
     const data = {
         message: null // No message on initial load
     };
