@@ -10,10 +10,12 @@ const port = 3000;
 app.set('view engine', 'ejs');
 app.set('views', './views');
 
+
 app.use("/home", home);
 app.use("/about", about);
 app.use("/projects", projectRoutes);
 app.use("/contact", contactRoutes);
+
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
