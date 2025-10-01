@@ -124,6 +124,28 @@
             padding: 6rem 5% 2rem;
         }
 
+        /* Added this for the 404 page main and children*/
+        .not-found-main {
+
+            flex-direction: column;
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                color: #919cb1;
+            }
+
+            a {
+                border-radius: 5px;
+                text-decoration: none;
+                margin-top: .7rem;
+                padding: .3em .6em;
+            }
+        }
+
         .hero-section {
             text-align: center;
             max-width: 800px;
