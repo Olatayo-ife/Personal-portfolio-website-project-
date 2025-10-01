@@ -9,6 +9,7 @@ app.set('views', './views');
 
 app.use(about);
 app.use(home);
+app.use(contact);
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
