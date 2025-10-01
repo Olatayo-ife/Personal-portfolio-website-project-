@@ -29,6 +29,7 @@ mkdir portfolio-site
 cd portfolio-site
 npm init -y
 npm install express ejs
+npm run start
 ```
 
 ---
@@ -44,6 +45,7 @@ npm install express ejs
 - [Temitope Funmilola Ibikunle](https://github.com/Temmyibk)
 - [Samuel Ire](https://github.com/samuelire)
 - [Noheemat](https://github.com/Tomzyglamstore)
+
 
 
 
