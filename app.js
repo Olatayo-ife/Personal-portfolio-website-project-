@@ -8,17 +8,19 @@ const app = express();
 const port = 3000;
 
 app.set('view engine', 'ejs');
+app.use(express.static('public'));
 app.set('views', './views');
 
-app.use("/home", home);
-app.use("/about", about);
+
+app.use("/", homeRoutes);
+app.use("/about", aboutRoutes);
 app.use("/projects", projectRoutes);
 app.use("/contact", contactRoutes);
 
 app.all('*', (req, res) => {
-  res.render("404");
-})
+  res.render("404", { title: "404-Page" });
+});
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
-}); 
+});
