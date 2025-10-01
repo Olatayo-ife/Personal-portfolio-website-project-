@@ -35,7 +35,7 @@ npm install express ejs
 
 ## Credits
 
-- [Sultan](https://github.com/Abdussalam-Sultan) 
+- [Sultan Abdussalam Oriire](https://github.com/Abdussalam-Sultan) 
 - [Osazuwa Matthew Ogbebor](https://github.com/osazuwamatthewogbebor) 
 - [Samuel Boman](https://github.com/Samuelboman)
 - [Timothy Olaleye](https://github.com/Folarex10)
@@ -44,6 +44,7 @@ npm install express ejs
 - [Temitope Funmilola Ibikunle](https://github.com/Temmyibk)
 - [Samuel Ire](https://github.com/samuelire)
 - [Noheemat](https://github.com/Tomzyglamstore)
+
 
 
 
