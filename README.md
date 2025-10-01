@@ -29,4 +29,21 @@ mkdir portfolio-site
 cd portfolio-site
 npm init -y
 npm install express ejs
+```
+
+---
+
+## Credits
+
+- [Sultan](https://github.com/Abdussalam-Sultan) 
+- [Osazuwa Matthew Ogbebor](https://github.com/osazuwamatthewogbebor) 
+- [Samuel Boman](https://github.com/Samuelboman)
+- [Timothy Olaleye](https://github.com/Folarex10)
+- [Tobi Emmanuel](https://github.com/Thobiy)
+- [Olatayo Hezekiah Love](https://github.com/Olatayo-ife)
+- [Temitope Funmilola Ibikunle](https://github.com/Temmyibk)
+- [Samuel Ire](https://github.com/samuelire)
+- [Noheemat](https://github.com/Tomzyglamstore)
+
+
 
