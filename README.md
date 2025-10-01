@@ -9,6 +9,7 @@ This project demonstrates serving static-like pages using routes and shared layo
 - Static pages rendered with EJS.
 - Common **header** and **footer** for all pages.
 - Basic routing with Express.
+- 404 routing to prevent routing errors.
 
 ---
 
@@ -28,3 +29,4 @@ mkdir portfolio-site
 cd portfolio-site
 npm init -y
 npm install express ejs
+
