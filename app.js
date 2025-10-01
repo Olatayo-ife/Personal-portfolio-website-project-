@@ -17,6 +17,9 @@ app.use("/about", aboutRoutes);
 app.use("/projects", projectRoutes);
 app.use("/contact", contactRoutes);
 
+app.all('*', (req, res) => {
+  res.render("404", { title: "404-Page" });
+});
 
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
