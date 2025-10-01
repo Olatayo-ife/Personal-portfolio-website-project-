@@ -17,8 +17,8 @@ app.use("/about", aboutRoutes);
 app.use("/projects", projectRoutes);
 app.use("/contact", contactRoutes);
 
-app.all('*', (req, res) => {
-  res.render("404", { title: "404-Page" });
+app.use((req, res) => {
+  res.status(404).render("404", { title: "404-Page" });
 });
 
 app.listen(port, () => {
