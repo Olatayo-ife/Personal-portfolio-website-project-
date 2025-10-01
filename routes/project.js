@@ -1,9 +1,9 @@
 import { Router } from "express";
 const router = Router();
 
-// Contact route
+// Projects route
 router.get("/", (req, res) => {
-  res.render("contact"); 
+  res.render("projects"); 
 });
 
 export default router;
