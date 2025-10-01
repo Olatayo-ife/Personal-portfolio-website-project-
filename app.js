@@ -15,6 +15,10 @@ app.use("/about", about);
 app.use("/projects", projectRoutes);
 app.use("/contact", contactRoutes);
 
+app.all('*', (req, res) => {
+  res.render("404");
+})
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 }); 
