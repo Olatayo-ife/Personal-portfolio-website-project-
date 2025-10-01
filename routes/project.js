@@ -3,7 +3,7 @@ const router = Router();
 
 // Projects route
 router.get("/", (req, res) => {
-  res.render("projects"); 
+  res.render("project", { title: "My Projects" }); 
 });
 
 export default router;
