@@ -1,4 +1,4 @@
-<%- include("header", { title: "Personal Portfolio - Full Stack Developer" }) %>
+<%- include("header") %>
 
 <main id="home">
   
@@ -6,23 +6,22 @@
 
     <div class="profile-photo">
 
-      <img src="/public/Adelabu_Oluwatobi.jpg" alt="Profile Photo">
+      <img src="/Adelabu_Oluwatobi.jpg" alt="Profile Photo">
 
     </div>
 
     <div class="hero-text">
+      <h1>Hi, I'm <span class="name"><%= name %></span></h1>
 
-      <h1>Hi, I'm <span class="name"><%= Oluwatobi Adelabu %></span></h1>
-
-      <p><%= I am a Full-stack Web developer. This is the summary
+      <p>I am a Full-stack Web developer. This is the summary
          of my profile: Full-Stack Software Engineer (React, Node.js,
           Laravel, Python) | Upwork Top-Rated | Tutor & Mentor |
-           Builds Web & Desktop Apps That Solve Real Business Problems %></p>
+           Builds Web & Desktop Apps That Solve Real Business Problems</p>
 
       <div class="cta-buttons">
 
-        <a href="#projects" class="btn btn-primary">View My Work</a>
-        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        <a href="/projects" class="btn btn-primary">View My Work</a>
+        <a href="/contact" class="btn btn-secondary">Get In Touch</a>
         <a href="#cv" class="btn btn-secondary">Download CV</a>
 
       </div>
@@ -32,4 +31,4 @@
 
 
 
-<%- include("footer", { name }) %>
+<%- include("footer") %>

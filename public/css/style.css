@@ -44,6 +44,7 @@
             font-weight: 700;
             color: #00C389;
             letter-spacing: 1px;
+            text-decoration: none;
         }
 
         .logo span {
@@ -121,6 +122,28 @@
             align-items: center;
             justify-content: center;
             padding: 6rem 5% 2rem;
+        }
+
+        /* Added this for the 404 page main and children*/
+        .not-found-main {
+
+            flex-direction: column;
+
+            h1 {
+                font-size: 4rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+                color: #919cb1;
+            }
+
+            a {
+                border-radius: 5px;
+                text-decoration: none;
+                margin-top: .7rem;
+                padding: .3em .6em;
+            }
         }
 
         .hero-section {
@@ -966,11 +989,11 @@
         }
 
         footer {
-  background-color: #111;        /* dark background */
-  color: #fff;                   /* white text */
-  padding: 20px 0;
+  background: rgba(10, 14, 39, 0.95);        
+  color: #fff;                   
+  padding: 10px 0;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 footer .container {
