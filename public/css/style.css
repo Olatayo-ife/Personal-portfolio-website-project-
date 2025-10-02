@@ -967,11 +967,11 @@
         }
 
         footer {
-  background-color: #111;        /* dark background */
-  color: #fff;                   /* white text */
-  padding: 20px 0;
+  background: rgba(10, 14, 39, 0.95);        
+  color: #fff;                   
+  padding: 10px 0;
   text-align: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 footer .container {
