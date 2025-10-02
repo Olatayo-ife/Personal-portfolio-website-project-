@@ -38,13 +38,14 @@ npm run start
 
 - [Sultan Abdussalam Oriire](https://github.com/Abdussalam-Sultan) 
 - [Osazuwa Matthew Ogbebor](https://github.com/osazuwamatthewogbebor) 
-- [Samuel Boman](https://github.com/Samuelboman)
+- [Samuel Boman Elias](https://github.com/Samuelboman)
 - [Timothy Olaleye](https://github.com/Folarex10)
 - [Tobi Emmanuel](https://github.com/Thobiy)
 - [Olatayo Hezekiah Love](https://github.com/Olatayo-ife)
 - [Temitope Funmilola Ibikunle](https://github.com/Temmyibk)
 - [Irenikase Samuel Temitope](https://github.com/samuelire)
 - [Noheemat](https://github.com/Tomzyglamstore)
+
 
 
 
