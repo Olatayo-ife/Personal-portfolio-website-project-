@@ -43,8 +43,9 @@ npm run start
 - [Tobi Emmanuel](https://github.com/Thobiy)
 - [Olatayo Hezekiah Love](https://github.com/Olatayo-ife)
 - [Temitope Funmilola Ibikunle](https://github.com/Temmyibk)
-- [Samuel Ire](https://github.com/samuelire)
+- [Irenikase Samuel Temitope](https://github.com/samuelire)
 - [Noheemat](https://github.com/Tomzyglamstore)
+
 
 
 
