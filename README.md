@@ -22,8 +22,7 @@ This project demonstrates serving static-like pages using routes and shared layo
 ## Features
 - Multiple pages: Home, About, Projects, and Contact.  
 - Reusable header and footer included on all pages.  
-- Static assets (CSS, images, JavaScript) served from the `public/` folder.  
-- Project data dynamically loaded from a JSON file.  
+- Static assets (CSS, images) served from the `public/` folder.    
 - Clean routing with Express for each page.  
 - Custom 404 page for invalid routes.  
   
@@ -46,18 +45,30 @@ This project demonstrates serving static-like pages using routes and shared layo
 ---
 ## Folder Structure
 ```bash
-my-portfolio/
-├── public/              # Static assets (CSS, JS, Images)
-│   └── styles.css
-├── views/               # EJS templates
-│   ├── partials/        # Header, footer, navbar
-│   ├── pages/           # about.ejs, projects.ejs, contact.ejs
-│   └── layout.ejs       # Main layout (optional)
-├── data/                # JSON files (projects.json, etc.)
-├── routes/              # Route handlers (optional for modularity)
-├── app.js               # Entry point
-├── package.json
-└── README.md
+Personal-portfolio-website-project-
+├── node_modules/           (Contains all external libraries/dependencies)
+├── public/                 (Static assets, accessible directly by the browser)
+│   ├── css/                (Stylesheets)
+│   │   └── style.css
+│   └── Adelabu_Oluwatobi.jpg (Image file)
+├── routes/                 (Contains controller logic for specific paths/resources)
+│   ├── about.js            (Route handler for the /about page)
+│   ├── contact.js          (Route handler for the /contact page)
+│   ├── home.js             (Route handler for the /home or /index page)
+│   └── project.js          (Route handler for the /project page)
+├── views/                  (EJS templates used to render dynamic HTML pages)
+│   ├── about.ejs           (View template for the about page)
+│   ├── contact.ejs         (View template for the contact page)
+│   ├── footer.ejs          (partial template for the footer)
+│   ├── header.ejs          (Partial template for the header)
+│   ├── home.ejs            (View template for the home page)
+│   └── project.ejs         (View template for the project page)
+├── .gitignore              (Specifies files/folders to be ignored by Git, node_modules)
+├── app.js                  (Main entry point/server configuration file)
+├── package.json            (Lists project dependencies and metadata)
+├── package-lock.json       (Locks dependency versions for reliable installs)
+└── README.md               (Project documentation and overview) 
+
 ```
 
 ---
@@ -91,7 +102,7 @@ npm install
 ---
 ### 3. Run the server:
 ```bash
-npm run dev   # if nodemon is set up
+npm run start
 ```
 
 ---
